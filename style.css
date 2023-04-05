@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content:start ;
+
+  flex-direction: column;
+  height: 90vh;
+  margin:0px
+}
+
+
+header{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+
+}
+
+
+li{
+  display: inline-block;
+  margin:20px
+}
+
+figure{
+/* background-color: blue ; */
+background-image: url(./mountains-1412683__340.webp);
+/* background-position: ; */
+    margin: 0;
+ height: 300px
+}
+
+main section{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+main section img{
+  height: auto ;
+  width: 250px;
+}
+.my-row{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+}
+.my-row section{
+width: 68%;
+}
+
+.my-row h1{
+  width: 30%;
+  text-align: right;
+  padding-right: 30px;
+}
