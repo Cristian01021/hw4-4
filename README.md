@@ -14,3 +14,6 @@ you can use the vanigation link to jumpo to any section of the page or scroll.
 ## Credits
 Link to colour gradient: https://mycolor.space/gradient3
 Tutor: Andrew H.
+
+## License
+MIT License
