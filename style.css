@@ -47,10 +47,30 @@ main section img{
 }
 .my-row section{
 width: 68%;
+height: 50%;
 }
 
 .my-row h1{
   width: 30%;
-  text-align: right;
-  padding-right: 30px;
+  text-align: left;
+  border-right: 2px solid black;
+  height: 40px;
+  padding-right: 1px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.button:hover{
+background-color:wheat;
+transition: ;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: ;
 }
