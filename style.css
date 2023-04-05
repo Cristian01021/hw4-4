@@ -11,15 +11,12 @@ body {
 margin-bottom: -70px;
 }
 
-
-
 header{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
-
+ margin-left: 20px;
 }
-
 
 li{
   display: inline-block;
@@ -66,32 +63,38 @@ height: 50%;
   padding-right: 1px;
   margin-top: 5px;
   margin-bottom: 0px;
+  margin-left: 25px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 70px;
 }
 
 .picturename {
   position:absolute;
-  margin-right: 320px;
+  margin-right: 970px;
 }
 
 .picturename1 {
   position: absolute;
-  margin-left: 320px;
+  margin-left: 330px;
 }
 
 .picturename2 {
   position: absolute;
   margin-right: 320px;
-  margin-top: 140px;
-  padding-top: 40px;
+  margin-top: 0px;
+  padding-top: 19px;
 }
 
 .picturename3 {
   position: absolute;
-  margin-left: 320px;
-  margin-top: 140px;
-  padding-top: 40px;
+  margin-left: 970px;
+  margin-top: 0px;
+  padding-top: 19px;
+}
+
+.links {
+  display: inline-block;
+  text-align: center;
 }
 
 
@@ -104,7 +107,7 @@ transition: ;
 .footer{
   display: flex;
   justify-content: space-around;
-  
+  padding: 100px;
 }
 
 @media screen and (max-width: 992px) {
@@ -115,13 +118,22 @@ transition: ;
 }
 
 @media screen and (max-width: 992px) {
-  .picturename1
+  .picturename1{
+  display: flex;
+  flex-wrap: wrap;
+}
 }
 
 @media screen and (max-width: 992px) {
-  .picturename2
+  .picturename2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 992px) {
-  .picturename3
+  .picturename3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
