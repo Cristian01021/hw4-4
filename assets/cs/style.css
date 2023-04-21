@@ -25,7 +25,7 @@ li{
 
 figure{
 /* background-color: blue ; */
-background-image: url(./mountains-1412683__340.webp);
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0b/Mountains-1412683.svg);
 /* background-position: ; */
     margin: 0;
  height: 300px;
@@ -75,7 +75,7 @@ height: 50%;
 
 .picturename1 {
   position: absolute;
-  margin-left: 330px;
+  margin-left: 300px;
 }
 
 .picturename2 {
@@ -99,8 +99,7 @@ height: 50%;
 
 
 .button:hover{
-background-color:wheat;
-transition: ;
+background-color:wheat; 
 
 }
 
